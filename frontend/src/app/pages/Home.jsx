@@ -1,8 +1,8 @@
-import React,{useState} from 'react'
+mport React,{useState} from 'react'
 import { Service_card} from '../../components'
 import { recipe,bot,note,facebook,twitter,instagram,linkedin, image1,image2,image3,image4,image5,image6,
   image7,image8,image9,image10,image11,
-  image12,image13,image14,image15,image17 } from '../../assets'
+  image12,image13,image14,image15,image17,us,grocry,healthy } from '../../assets'
 import { about } from '../../constants/index'
 import { Button}  from '../../components'
 
@@ -87,12 +87,14 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center p-16 bg-black text-slate-100 rounded-lg shadow-md shadow-slate-400 ring-1 ring-slate-100" id='aboutus'>
+        <div className="flex flex-col justify-center items-center p-16  text-slate-100" id='aboutus'>
         <h1 className='font-bold text-5xl capitalize underline text-center my-4 text-slate-50 mb-12'>About us</h1>
         <div className='flex justify-around items-center w-full'>
           <div className="h-[auto] bg-gray-900 p-4 ring-1 rounded-xl text-center w-[20rem]">
+         
             <h1  className='text-2xl capitalize font-bold mb-2 text-slate-100'>our values</h1>
             <div className=' p-4 rounded-lg h-[auto] bg-gray-300 ring-1 text-center '>
+            <img src={grocry} alt="" className='rounded-xl h-[16rem]'/>
               <h2 className='text-xl capitalize font-bold mb-4 text-blue-900'>Ensure A Healthy living community, Healthy diet and healthy feeding</h2>
               <p className='text-lg text-slate-800'>Healthy among other things is more important than anything else.</p>
             </div>
@@ -102,19 +104,25 @@ const Home = () => {
             </div>
           </div>
           <div className="h-[auto] bg-gray-900 p-4 ring-1 rounded-xl text-center w-[20rem] ">
+         
             <h1 className='text-2xl capitalize font-bold mb-2'>our mission</h1>
-
+        
             <div className='bg-gray-800 p-4 rounded-lg'>
+            <img src={healthy} alt=""className='rounded-xl' />
               <h2 className='text-xl capitalize font-bold mb-4'>Ensure A Healthy living community, Healthy diet and healthy feeding</h2>
+
               <p className='text-lg text-slate-200'>Healthy among other things is more important than anything else.</p>
             </div>
          
           </div>
           <div className="h-[auto] bg-gray-900 p-4 ring-1 rounded-xl text-center w-[20rem]">
+          
             <h1 className='text-2xl capitalize font-bold mb-2'>who are we?</h1>
 
             <div className='bg-gray-800 p-4 rounded-lg'>
+            <img src={us} alt="" className='rounded-xl w-auto h-[18rem]'/>
               <h2 className='text-xl capitalize font-bold mb-4'>Community Nutrition developers</h2>
+
               <p className='text-lg text-slate-200'>Creating awareness of healthy feeding and health maintanance is our job and preserve the future.</p>
             </div>
           </div>
