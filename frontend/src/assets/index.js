@@ -24,11 +24,14 @@ import image14 from './image (14).jpg'
 import image15 from './image (15).jpg'
 import image16 from './image (16).jpg'
 import image17 from './image17.png'
+import healthy from './healthy.jpg'
+import grocry from './grocry.jpg'
+import us from './us.png'
 
 export{
     search,microphone,recipe,
     bot,note,facebook,twitter,instagram,linkedin,
     image1,image2,image3,image4,image5,image6,
     image7,image8,image9,image10,image11,
-    image12,image13,image14,image15,image16,image17
+    image12,image13,image14,image15,image16,image17,healthy,us,grocry
 }
